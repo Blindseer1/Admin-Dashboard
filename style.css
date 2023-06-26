@@ -217,7 +217,7 @@ gap:25px;
     height: 220px;
     display: grid;
     grid-template-columns: 1fr 40fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 4fr 1fr;
     background-color: white;
    
 }
@@ -225,7 +225,7 @@ gap:25px;
 {
     background-color: #14b8a6;
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/4;
 }
 .card p
 {
@@ -291,4 +291,12 @@ gap:25px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3,1fr);
     row-gap: 10px;
+}
+.icons
+{
+    grid-column: 2/3;
+
+  display: flex;
+  justify-content: flex-end;
+  gap:10px;
 }
